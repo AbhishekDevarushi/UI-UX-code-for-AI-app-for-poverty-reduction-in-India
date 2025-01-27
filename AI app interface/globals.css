@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 186 71% 95%;
+    --primary: 186 71% 49%;
+    --primary-foreground: 210 40% 98%;
+  }
+}
+
+body {
+  background-image: linear-gradient(135deg, hsl(186, 71%, 95%) 0%, hsl(186, 71%, 85%) 100%);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
